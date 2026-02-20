@@ -1,8 +1,10 @@
 body {
 
     /*background:papayaWhip*/
-    background: LightSteelBlue;
+    background: OldLace;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    color: Black; 
+    
 }
 
 div.side-by-side {
