@@ -9,7 +9,7 @@
         <!-- What's in the <head> element is NOT for display in a web browser! 
             <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
             It holds important information about the website's contents. -->
-        <title>Starter HTML</title>
+        <title>Index</title>
        <!-- The text inside the <title> element does show in the top tab of a web browser. 
             The <head> is where we will include info about styling the site, too.-->
         <meta charset="UTF-8" />
@@ -22,9 +22,14 @@
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Beginning HTML</h1>
-        <h2>I am smaller</h2>
+        <h2>This text is smaller</h2>
+        <h3>And it just gets smaller!</h3>
+        <h4>...And smaller!</h4>
+        <h5>...Even smaller!...</h5>
+        <h6>...so tiny...!</h6>
         <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> |
+            <a href="gallery.html">Gallery</a> | <a href = "resume.html">Resume</a>
         </nav>
         <!-- See this <nav> element? ˆˆˆˆˆ It's for a navigation menu. 
             We set this up with RELATIVE links to other HTML files 
@@ -53,15 +58,33 @@
         <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar to the <q>unordered</q> list. 
             You have to see the difference by viewing in a web browser.</p>
         <ol>
-            <li>morning</li>
-            <li>noon</li>
-            <li>afternoon</li>
-            <li>evening</li>
             <li>night</li>
+            <li>evening</li>
+            <li>afternoon</li>
+            <li>day</li>
+            <li>morning</li>
         </ol>
+        <!-- <pre> tag preserves both lines spaces and line breaks. Mostly used for poetry! -->
+        <pre>
+            Because I could not stop for Death –
+            
+            He kindly stopped for me –
+            
+            The Carriage held but just Ourselves –
+            
+            And Immortality.
+        </pre>
+        <h6>Because I could not stop for Death- Emily Dickinson</h6>
         <figure>
             <img src="images/newt-mosaic4.png"/>
             <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a href="https://newtfire.org">newtfire.org</a></figcaption>
         </figure> 
+        <figure>
+            <!-- I wasn't expecting this image to work, but it did!
+            (with a very long url)-->
+            <img src="https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/2366147c-9d05-4414-b016-2bd0e3233b1a/shutterstock_97506335_0.jpg?w=1920&amp;q=75&amp;auto=format"/>
+            <figcaption>some cute kitties in mugs!</figcaption>
+        </figure>
+        <p>These changes will be updated to my personal repo on : <a href="https://github.com/">Github</a></p>
     </body>
 </html>
