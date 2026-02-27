@@ -7,8 +7,8 @@ body {
     
 }
 
-div.side-by-side {
-    display: flex;
+div {
+    display: inline-block;
 }
 
 img {
@@ -19,4 +19,5 @@ img {
 .featureBlock {
     background-color:pink;
     font-size: smaller;
+    
 }

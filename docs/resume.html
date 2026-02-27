@@ -1,36 +1,93 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+
     <head>
-        <!-- What's in the <head> element is NOT for display in a web browser! 
-            <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
-            It holds important information about the website's contents. -->
+        <!-- Metadata stored in the head
+         <title> refers to the name on the top of the tab when opened in browser-->
         <title>Resume</title>
-       <!-- The text inside the <title> element does show in the top tab of a web browser. 
-            The <head> is where we will include info about styling the site, too.-->
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
+        <!-- the head also stores links to the css page, which controls styling -->
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>This is a page to display my work resume:</h1>
-        <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> |
-            <a href="gallery.html">Gallery</a> | <a href = "resume.html">Resume</a>
-        </nav>
-        <!-- See this <nav> element? ˆˆˆˆˆ It's for a navigation menu. 
-            We set this up with RELATIVE links to other HTML files 
-            that you will find in the same folder with this index.html. 
-        -->
+        <!-- Body is where the main content of the document lies -->
+        <h1>Kaa Rivera</h1>
+        <p>814-393-9099 | clr6181@psu.edu | Erie, PA 16503</p>
+        <!-- Using the div element to contain my lists, I was able to print the rest of my list
+        side by side! Huzzah!-->
+        <div>
+            <h2>SKILLS:</h2>
+            <ul>
+                <!-- There is supposed to be more skills listed here, but they should be to
+            the right of these listings-->
+                <li>Critical Thinking</li>
+                <li>Team Collaboration</li>
+                <li>Strong Work Ethic</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Fast Learner</li>
+                <li>Adaptable and flexible</li>
+                <li>Customer service excellence</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Attention to detail</li>
+                <li>Multitasking</li>
+                <li>Cash Handling Proficiency</li>
+            </ul>
+        </div>
+        <h2>EXPERIENCE:</h2>
+        <h3>Games Operator</h3>
+        <h4>Waldameer Park, 2023 - Current</h4>
+        <ul>
+            <li>Participated in ongoing staffmeetings aimed at improving overall operations.</li>
+            <li>Greeted guests upon arrival at gaming area, making them feel welcome and comfortable
+                in space</li>
+            <li>Supervised underage guests</li>
+            <li>Assisted customers with game rules and strategies to enhance their gaming
+                experience.</li>
+            <li>Managed inventory levels of supplies such as tokens, chips, cards, and more to
+                ensure availability for all customers.</li>
+        </ul>
+        <h3>Concessions Cashier</h3>
+        <h4>Waldameer Park, 2022 - 2022</h4>
+        <ul>
+            <li>Satisfied customers with fast and friendly food, beverage and dessert services.</li>
+            <li>Processed customer orders and payments quickly and efficiently.</li>
+            <li>Met customer needs by keeping self-serve stations well-stocked with food and
+                supplies.</li>
+            <li>Prepared and served food items to customers at concession stands.</li>
+            <li>Utilized time-managment skills to ensure efficient completion of tasks during busy
+                events of peak sales periods.</li>
+        </ul>
+        <h2>EDUCATION:</h2>
+            <h4>Penn State Behrend, Erie PA, Grad 2029</h4>
+            <ul>
+                <li>Maintain 3.9 GPA pursuing DIGIT major with a minor in Game Development.</li>
+                <li>Maintain an active presence in schools hosted E-Sports league.</li>
+            </ul>
+            <h4>Collegiate Academy, Erie PA, Jun 2025</h4>
+            <ul>
+                <li>Dean's List Student throughout Educational experience.</li>
+                <li>Maintain active presence in schools hosted E-Sports league, serving as Captain
+                    of the team for one year.</li>
+                <li>Recipient of student achievement from the Computer and Technology Department.</li>
+            </ul>
         
-        <p>These changes will be updated to my personal repo on : <a href="https://github.com/">Github</a></p>
+        <!-- I want to put the nav bar at the bottom of the page -->
+        <!-- Inserting a line break to separate my nav elements from the content on the page -->
+        <hr />
+        <nav>
+            <p>For more information about lil 'ol me, check out the rest of my pages! </p>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html"
+                >Gallery</a> | <a href="resume.html">Resume</a>
+        </nav>
+        <p>These changes will be updated to my personal repo on : <a href="https://github.com/"
+                >Github</a></p>
     </body>
 </html>

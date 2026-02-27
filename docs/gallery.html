@@ -1,39 +1,34 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
+
     <head>
-        <!-- What's in the <head> element is NOT for display in a web browser! 
-            <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
-            It holds important information about the website's contents. -->
+
         <title>Gallery</title>
-       <!-- The text inside the <title> element does show in the top tab of a web browser. 
-            The <head> is where we will include info about styling the site, too.-->
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
+
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>This is my gallery page!</h1>
+        <h3>Here is where I will display both personal and professional artwork/photography.</h3>
+        <div>
+            <a href="personal.html">Personal Art Gallery</a>
+        </div>
+        <div>
+            <p>||</p>
+        </div>
+        <div>
+            <a href="professional.html">Professional Art Gallery</a>
+        </div>
+        <hr />
         <nav>
-            <a href="index.html">Home</a> | <a href="about.html">About</a> |
-            <a href="gallery.html">Gallery</a> | <a href = "resume.html">Resume</a>
+            <p>For more information about lil 'ol me, check out the rest of my pages! </p>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html"
+                >Gallery</a> | <a href="resume.html">Resume</a>
         </nav>
-        <!-- See this <nav> element? ˆˆˆˆˆ It's for a navigation menu. 
-            We set this up with RELATIVE links to other HTML files 
-            that you will find in the same folder with this index.html. 
-        -->
-        <ul> 
-            <li>Personal Artwork: <a href= "personal.html">Personal</a> </li>
-            <li>Professional Artwork:<a href="professional.html">Professional</a> </li>
-        </ul>
-        <p>These changes will be updated to my personal repo on : <a href="https://github.com/">Github</a></p>
+        <p>These changes will be updated to my personal repo on : <a href="https://github.com/"
+                >Github</a></p>
     </body>
 </html>
