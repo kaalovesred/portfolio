@@ -1,12 +1,17 @@
 body {
 
-    /*background:papayaWhip*/
-    background: OldLace;
+    background: Black;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
-    color: Black; 
+    color: White; 
     
 }
-
+nav{
+    background: Red;
+    color: black;
+}
+h1{
+    color:red;
+}
 div {
     display: inline-block;
 }
