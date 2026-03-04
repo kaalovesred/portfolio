@@ -12,7 +12,7 @@ nav{
 h1{
     color:red;
 }
-div {
+div .inline{
     display: inline-block;
 }
 
