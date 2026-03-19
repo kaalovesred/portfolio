@@ -6,11 +6,24 @@ body {
     
 }
 nav{
-    background: Red;
-    color: black;
+    background:black;
+    color: white;
+    border-style: dotted;
+    border-color: red;
+}
+
+a{
+    color:red;   
 }
 h1{
     color:red;
+}
+h3{
+    color:red;
+}
+.header{
+    color:red;
+    
 }
 div .inline{
     display: inline-block;
@@ -19,10 +32,18 @@ div .inline{
 img {
     width: 59%;
     max-width: 500px;
+    border-style: dotted;
+    border-color: red;
 }
 
 .featureBlock {
     background-color:pink;
     font-size: smaller;
+    
+}
+.size{
+    width:150px;
+    height:150px;
+    justify-content: flex-end;
     
 }
